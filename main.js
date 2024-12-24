@@ -1,15 +1,17 @@
 
 import formatMysqlDatetime from './dateFormat.js';
 import updateNotifications from './notifications.js';
-import initializeHistoryButtons from "https://7c27f5e9.kit-js-modules.pages.dev/projectHistory.js";
-    import initializeNotificationFollow from "https://7c27f5e9.kit-js-modules.pages.dev/notificationFollow.js";
-    import copyPhoneNumber from "https://7c27f5e9.kit-js-modules.pages.dev/copyPhoneNumber.js";
-    import tabsNavigation from "https://7c27f5e9.kit-js-modules.pages.dev/tabsNavigation.js";
-    import assignInstallationTeam from "https://7c27f5e9.kit-js-modules.pages.dev/assignInstallationTeam.js";
-    import addNote from "https://7c27f5e9.kit-js-modules.pages.dev/addNote.js";
-    import orderInstallationVisit from "https://7c27f5e9.kit-js-modules.pages.dev/orderInstallationVisit.js";
-    import followupForm from "https://7c27f5e9.kit-js-modules.pages.dev/followupForm.js";
-    import callCustomer from "https://7c27f5e9.kit-js-modules.pages.dev/callCustomer.js";
+
+// modules are used when needed in some pages
+import initializeHistoryButtons from "./projectHistory.js";
+    import initializeNotificationFollow from "./notificationFollow.js";
+    import copyPhoneNumber from "./copyPhoneNumber.js";
+    import tabsNavigation from "./tabsNavigation.js";
+    import assignInstallationTeam from "./assignInstallationTeam.js";
+    import addNote from "./addNote.js";
+    import orderInstallationVisit from "./orderInstallationVisit.js";
+    import followupForm from "./followupForm.js";
+import callCustomer from "./callCustomer.js";
 
 // Format the datetime for each element with the 'datetime' attribute set to 'true'
 document.querySelectorAll('[datetime="true"]').forEach((element) => {
