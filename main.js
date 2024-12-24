@@ -2,17 +2,6 @@
 import formatMysqlDatetime from './dateFormat.js';
 import updateNotifications from './notifications.js';
 
-// modules are used when needed in some pages
-import initializeHistoryButtons from "./projectHistory.js";
-    import initializeNotificationFollow from "./notificationFollow.js";
-    import copyPhoneNumber from "./copyPhoneNumber.js";
-    import tabsNavigation from "./tabsNavigation.js";
-    import assignInstallationTeam from "./assignInstallationTeam.js";
-    import addNote from "./addNote.js";
-    import orderInstallationVisit from "./orderInstallationVisit.js";
-    import followupForm from "./followupForm.js";
-import callCustomer from "./callCustomer.js";
-
 // Format the datetime for each element with the 'datetime' attribute set to 'true'
 document.querySelectorAll('[datetime="true"]').forEach((element) => {
 let mysqlDatetime = element.textContent;
